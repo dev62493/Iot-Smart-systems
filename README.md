@@ -1,16 +1,15 @@
 # IOT
 # Home Automation
 # Smart Parking System
-IOT as name suggest which Internet of Things means We can control things By Internet.
-In iot project basically we are doing two application of it
+In this project we are basically controlling various sensors and 
+hardwares via internet and microcontroller( wifi module )
 1.Home automatiom 
-    we control home appliance by internet.
+    We control home appliance/home lights and fans by internet.
 2.Smart parking system
-    we can see the parking space in application and Webpage
+    We can see the parking space availablity in application and Webpage.
     
-For real time data storage we are using google firebase"s real time database.
+For real time data storage we are using google firebase. (real time database)
 
-HArdwarwe we are using is nodemcu which has inbuilt ESP8266 wifi module which control the things.We programmed it through ArduinoIDE so we need to install some packages like ESP8266
-                              Arduinojson
-                              FirebaseArduino Libraries.
+Microcontroller and wifi module used for intenet connectivity is Nodemcu which has inbuilt ESP8266 wifi module 
+which can generate digital singals. We programmed it through ArduinoIDE by using packages like ESP8266,Arduinojson, FirebaseArduino Libraries.
                          
